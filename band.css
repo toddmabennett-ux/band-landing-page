@@ -64,7 +64,40 @@ footer a:hover {
     margin-left: 5px;
 }
 @media screen and (max-width:600px){
-    aside, section, article{
-        width: 100%;
-    }
+
 }
+    .logo{
+        max-width: 200px;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+    .hero{
+        font-size: 1.1rem;
+        margin: 20px 10px;
+    }
+    .gigs h2{
+        text-align: center;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .gig-table{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .gig-table th,
+    .gig-table td {
+        padding: 8px;
+        text-align: center;
+    }
+    .gigs{
+        margin: 20px 10px;
+    }
+    .social-icon{
+        width: 20px;
+        height: 20px;
+        margin-left: 3px;
+    }
+
