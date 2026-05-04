@@ -1,0 +1,70 @@
+body{
+    background: black;
+    color: red;
+}
+.logo{
+    display: block;
+    margin: auto;
+    animation: fade 4s ease-in-out infinite;
+}
+@keyframes fade{
+    0% {opacity: 0;}
+    50% { opacity: 1;}
+    100% { opacity: 0;}
+}
+.hero {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+}
+footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+footer a:hover {
+    color:antiquewhite
+}
+.footer-audio{
+    margin-bottom: 10px;
+}
+.gigs {
+    text-align: center;
+    margin: 40px;
+}
+.gig-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    color: antiquewhite;
+}
+.gig-table th,
+.gig-table td {
+    border: 1px solid #444;
+    padding: 10px;
+}
+.gig-table th {
+    background: #111;
+    font-weight: bold;
+}
+.gig-table tr:nth-child(even) {
+    background: #1a1a1a;
+}
+.social-icon{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
