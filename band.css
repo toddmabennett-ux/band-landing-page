@@ -65,8 +65,9 @@ footer a:hover {
 }
 @media screen and (max-width:600px){
     .logo{
-        max-width: 200px;
-        width: 80%;
+        max-width: 250px;
+        min-width: 150px;
+        width: 70%;
         height: auto;
         margin: 20px auto;
         display: block;
